@@ -5,6 +5,6 @@ module.exports = {
 		.setName('contribute')
 		.setDescription('Gives you the link to the GitHub repository'),
 	async execute(interaction) {
-		await interaction.reply('Test');
+		await interaction.reply('https://github.com/clement-caillat/alpha-72');
 	},
 };
